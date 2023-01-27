@@ -1,0 +1,20 @@
+{
+    "name": "YourLyrics",
+    "version": "1.0.0",
+    "description": "Prepare your microphone, look for your favorite song on YouTube and sing!",
+    "manifest_version": 3,
+    "author": "AndresDavidLopez",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "YourLyrics",
+        "default_icon": {
+        }
+    },
+    "icons": {
+    },
+    "permissions": ["scripting"],
+		"host_permissions" : ["*://www.youtube.com/watch*"]
+}
